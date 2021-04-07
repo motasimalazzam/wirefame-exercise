@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+
+header{
+    background-color:rgb(71, 68, 68);
+    height: 90px;
+    width: 100%;
+   margin-bottom: 20px;
+}
+
+header div {
+    text-decoration: none;
+    width: 25%;
+    float: left;
+    padding-left: 150px;
+    padding-top: 10px;
+}
+
+header ul{
+    width: 100%;
+    padding-top: 30px;
+}
+
+header ul li {
+    width: 10%;
+    display: inline-block;  
+     
+}
+
+header ul li a{
+    color:rgb(112, 112, 105);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 50px; 
+}
+
+
+#sec1{
+    padding-left:150px;
+    margin-bottom: 30px;
+}
+
+#sec2{
+    padding-left: 130px;
+    margin-bottom: 30px;
+}
+
+#sec2 img{
+    padding-left: 20px;
+}
+
+#sec3 img {
+    float: left;
+   padding-left: 150px;
+   margin-bottom: 30px;
+
+}
+#sec4{
+    float:right;
+    width: 50%;
+    padding-left: 15px;
+}
+#sec4 h6{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+#sec4 p{
+    text-align: justify;
+    overflow-y: scroll;
+    width:60%;
+    height: 325px;
+}
+#sec5{
+    float: right;
+    padding-right: 550px;
+    padding-top: 10px;
+}
+#sec5 p{
+    width: 3cm;
+    height: 1cm;;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 8px;
+}
+footer{
+    clear: both;
+    background-color:rgb(71, 68, 68) ;
+    height: 70px;
+    margin-top: 15px;
+}
